@@ -23,17 +23,23 @@
     <div class="container py-5">
       <div class="row align-items-center">
         <div class="col-3">
-          <a href="./index.html">
+          <a href="#">
             <div class="logo-wrapper">
               <img src="./assets/img/white-logo.png" alt="Cyber Security Lab Logo" />
             </div>
           </a>
         </div>
+
         <div class="col-6">
-          <nav>
-            <div class="navigation-container d-flex justify-content-center">
+
+          <nav class="nav">
+            <button class="hamburger" id="hamburger">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="navigation-container d-flex justify-content-center nav-ul" id="nav-ul">
+              <button class="close" onclick="toggleNav()">x</button>
               <div class="navigation-item">
-                <a href="./index.html" class="white hover-cc hover-after">Home</a>
+                <a href="index.html" class="white hover-cc hover-after">Home</a>
               </div>
               <div class="navigation-item">
                 <a href="#" class="white hover-cc hover-after">About us</a>
@@ -41,7 +47,7 @@
               <div class="navigation-item hover-cc hover-after">
                 <a href="#" class="white">Assessment</a>
                 <div class="sub-menu mt-3">
-                  <a href="#" class="text">Web Application Penetration Testing</a>
+                  <a href="./wap-testing.html" class="text">Web Application Penetration Testing</a>
                   <a href="./network-pen-testing.html" class="text">Network Penetration Testing</a>
                   <a href="./ma-pen-testing.html" class="text">Mobile Application Penetration Testing</a>
                 </div>
@@ -65,6 +71,7 @@
                 </div>
               </div>
             </div>
+
           </nav>
         </div>
         <div class="col-3 d-flex justify-content-end">
@@ -78,7 +85,7 @@
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-6 text-center">
-            <h1 class="white text-center">
+            <h1 class="white text-center mobile-h1">
               Web Application <br />
               Penetration Testing
             </h1>
@@ -100,11 +107,11 @@
             </div>
           </div>
           <div class="col-12 col-lg-6 ms-5 d-flex flex-column justify-content-center">
-            <div class="info-text white fs-3">
+            <div class="info-text white fs-3 mobile-div">
               Our primary objective for a web application penetration test is
               to identify exploitable vulnerabilities in applications before
               hackers are able to discover and exploit them.
-              <p class="text mt-4 fs-2">
+              <p class="text mt-4 fs-2 mobile-text">
                 Web application penetration testing will reveal real-world
                 opportunities for hackers to be able to compromise
                 applications in such a way that allows for unauthorized access
@@ -120,7 +127,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-6 d-flex flex-column justify-content-start pt-5 fs-3">
-            <h2 class="white">How We Solve The <br />Problem</h2>
+            <h2 class="white mobile-h2">How We Solve The <br />Problem</h2>
             <p class="fs-2 text my-4">
               These tests seek to identify expected functionality,
               reliability, performance, and security
@@ -160,7 +167,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 d-flex flex-column align-items-center">
-            <h3 class="fs-4 white">Specialized Web App Pen Test Team</h3>
+            <h3 class="fs-4 white mobile-h3">Specialized Web App Pen Test Team</h3>
             <p class="col-9 text fs-2 text-center mt-3">
               CSL web app pen test professionals are over 10+ years of
               experience and have the knowledge and caliber to execute complex
@@ -277,7 +284,7 @@
             </div>
           </div>
           <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
-            <p class="fs-4-5 white fw-600">
+            <p class="fs-4-5 white fw-600 mobile-p">
               Why Choose Us for Web App Penetration Testing as a Service
             </p>
             <p class="fs-2-5 text my-5 small-line-down">

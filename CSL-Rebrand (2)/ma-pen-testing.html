@@ -25,15 +25,21 @@
         <div class="col-3">
           <a href="#">
             <div class="logo-wrapper">
-              <a href="index.html"><img src="./assets/img/white-logo.png" alt="Cyber Security Lab Logo" /></a>
+              <img src="./assets/img/white-logo.png" alt="Cyber Security Lab Logo" />
             </div>
           </a>
         </div>
+
         <div class="col-6">
-          <nav>
-            <div class="navigation-container d-flex justify-content-center">
+
+          <nav class="nav">
+            <button class="hamburger" id="hamburger">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="navigation-container d-flex justify-content-center nav-ul" id="nav-ul">
+              <button class="close" onclick="toggleNav()">x</button>
               <div class="navigation-item">
-                <a href="./index.html" class="white hover-cc hover-after">Home</a>
+                <a href="index.html" class="white hover-cc hover-after">Home</a>
               </div>
               <div class="navigation-item">
                 <a href="#" class="white hover-cc hover-after">About us</a>
@@ -65,6 +71,7 @@
                 </div>
               </div>
             </div>
+
           </nav>
         </div>
         <div class="col-3 d-flex justify-content-end">
@@ -78,7 +85,7 @@
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-6 text-center">
-            <h1 class="white text-center">
+            <h1 class="white text-center mobile-h1">
               Mobile Application Penetration Testing
             </h1>
             <div class="wrapper d-flex justify-content-center my-3">
@@ -99,7 +106,7 @@
             </div>
           </div>
           <div class="col-12 col-lg-6 ms-5 d-flex flex-column justify-content-center">
-            <div class="info-text white fs-3">
+            <div class="info-text white fs-3 mobile-div">
               Mobile applications are becoming a common platform for
               supporting both business and leisure activities.
               <p class="text mt-4 fs-2">
@@ -118,7 +125,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-6 d-flex flex-column justify-content-start pt-5 fs-3">
-            <h2 class="white">
+            <h2 class="white mobile-h2">
               Our Approach to <br />
               Mobile Pentest
             </h2>

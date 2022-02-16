@@ -25,16 +25,21 @@
                 <div class="col-3">
                     <a href="#">
                         <div class="logo-wrapper">
-                            <a href="index.html"><img src="./assets/img/white-logo.png"
-                                    alt="Cyber Security Lab Logo" /></a>
+                            <img src="./assets/img/white-logo.png" alt="Cyber Security Lab Logo" />
                         </div>
                     </a>
                 </div>
+
                 <div class="col-6">
-                    <nav>
-                        <div class="navigation-container d-flex justify-content-center">
+
+                    <nav class="nav">
+                        <button class="hamburger" id="hamburger">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="navigation-container d-flex justify-content-center nav-ul" id="nav-ul">
+                            <button class="close" onclick="toggleNav()">x</button>
                             <div class="navigation-item">
-                                <a href="./index.html" class="white hover-cc hover-after">Home</a>
+                                <a href="index.html" class="white hover-cc hover-after">Home</a>
                             </div>
                             <div class="navigation-item">
                                 <a href="#" class="white hover-cc hover-after">About us</a>
@@ -67,6 +72,7 @@
                                 </div>
                             </div>
                         </div>
+
                     </nav>
                 </div>
                 <div class="col-3 d-flex justify-content-end">
