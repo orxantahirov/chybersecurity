@@ -601,14 +601,14 @@ textarea {
     z-index: 999999999;
   }
 
-  .nav-ul .show {
+  .nav-ul.show {
     display: flex !important;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
 
-  .nav-ul .show .close {
+  .nav-ul.show .close {
     display: block;
     position: fixed;
     top: 20px;
@@ -633,15 +633,6 @@ textarea {
   .slider-heading button {
     padding: 5px;
   }
-  .hamburger {
-    display: block;
-  }
-  .nav-ul {
-    display: none !important;
-  }
-  .nav-ul.show {
-    display: flex;
-  }
 }
 @media (max-width: 992px) {
   .jsy-content {
@@ -653,9 +644,13 @@ textarea {
   .pt-20 {
     padding-top: 20px;
   }
-}
-@media (min-width: 768px) and (max-width: 992px) {
-  .navigation-item {
-    font-size: 15px;
+  .nav-ul {
+    display: none !important;
+  }
+  .nav-ul.show {
+    display: flex;
+  }
+  .hamburger {
+    display: block;
   }
 }
