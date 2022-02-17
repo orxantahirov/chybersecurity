@@ -139,6 +139,9 @@ body > * {
 h1 {
   font-size: 5rem;
 }
+.ml-0 {
+  margin-left: 0;
+}
 
 /* Setting Default Font -- End */
 
@@ -646,7 +649,7 @@ textarea {
     font-size: 16px;
   }
   .mobile-h2 {
-    font-size: 27px;
+    font-size: 27px !important;
   }
   .mobile-h3 {
     font-size: 27px;
