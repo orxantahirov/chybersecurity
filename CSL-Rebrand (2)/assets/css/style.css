@@ -429,6 +429,10 @@ h1 {
 .method-card .method-card-info {
   line-height: 3rem;
 }
+.method-card-info a:hover {
+  color: #660cff !important;
+  transition: all 0.5s;
+}
 #why-us {
   padding: 100px 0;
 }
